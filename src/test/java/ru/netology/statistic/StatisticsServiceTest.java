@@ -21,8 +21,8 @@ public class StatisticsServiceTest {
     void findMaxWhenMaxNotFirst() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 30, 6, 11, 11, 12};
-        long expected = 30;
+        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 45, 6, 11, 11, 12};
+        long expected = 45;
 
         long actual = service.findMax(incomesInBillions);
 
